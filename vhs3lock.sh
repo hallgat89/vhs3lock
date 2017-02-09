@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+# https://github.com/hallgat89/vhs3lock
+# Depends on: i3lock, xfonts-terminus, imagemagick
+
 BG='/tmp/vhslock.png'
 BGCOLOR='0000ff'
 FONT='Terminus'
