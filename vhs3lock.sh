@@ -20,14 +20,8 @@ gen_background() {
         -draw "text $((WIDTH-350)),$((HEIGHT-200)) '0:000'" "$BG"
 }
 
-# Lock now
-#i3lock -c 000000
-
 # Start making the background
 gen_background
-
-# "Unlock"
-pkill i3lock
 
 # Lock again with the new background
 i3lock -c $BGCOLOR -i $BG
